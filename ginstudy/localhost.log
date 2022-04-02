@@ -1,0 +1,37 @@
+2022-04-02T16:06:21.633+0800	info	logger/default.go:24	点击了登录按钮
+2022-04-02T16:06:25.837+0800	debug	logger/default.go:16	您进入了登录页面
+2022-04-02T16:06:27.503+0800	debug	logger/default.go:16	您进入了登录页面
+2022-04-02T16:06:32.981+0800	info	logger/default.go:24	点击了登录按钮
+2022-04-02T16:49:12.429+0800	debug	logger/default.go:16	您进入了登录页面
+2022-04-02T16:49:12.437+0800	info	logger/default.go:28	2022/04/02 - 16:49:12 | 200 |             ::1 | GET     | /login
+
+2022-04-02T16:49:42.199+0800	info	logger/default.go:24	点击了登录按钮
+2022-04-02T16:49:42.201+0800	info	logger/default.go:28	2022/04/02 - 16:49:42 | 200 |             ::1 | POST    | /login
+
+2022-04-02T16:49:47.236+0800	info	logger/default.go:28	2022/04/02 - 16:49:47 | 404 |             ::1 | GET     | /
+
+2022-04-02T16:49:55.061+0800	debug	logger/default.go:16	您进入了登录页面
+2022-04-02T16:49:55.062+0800	info	logger/default.go:28	2022/04/02 - 16:49:55 | 200 |             ::1 | GET     | /login
+
+2022-04-02T22:19:15.081+0800	debug	logger/default.go:16	connect success
+2022-04-02T22:19:15.420+0800	debug	logger/default.go:16	connect success!
+2022-04-02T22:26:36.052+0800	info	logger/default.go:28	2022/04/02 - 22:26:36 | 404 |             ::1 | GET     | /favicon.ico
+
+2022-04-02T22:26:43.609+0800	error	logger/default.go:44	商品列表查询错误：record not found
+2022-04-02T22:28:11.146+0800	debug	logger/default.go:16	connect success
+2022-04-02T22:28:11.828+0800	debug	logger/default.go:16	connect success!
+2022-04-02T22:28:19.704+0800	debug	logger/default.go:16	您进入了登录页面
+2022-04-02T22:28:19.708+0800	info	logger/default.go:28	2022/04/02 - 22:28:19 | 200 |             ::1 | GET     | /login
+
+2022-04-02T22:31:24.432+0800	error	logger/default.go:40	模型参数绑定错误： %vKey: 'Product.Code' Error:Field validation for 'Code' failed on the 'required' tag
+Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' tag
+2022-04-02T22:31:24.433+0800	info	logger/default.go:28	2022/04/02 - 22:31:24 | 302 |             ::1 | POST    | /products
+
+2022-04-02T22:32:05.635+0800	error	logger/default.go:40	模型参数绑定错误： %vKey: 'Product.Code' Error:Field validation for 'Code' failed on the 'required' tag
+Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' tag
+2022-04-02T22:32:05.638+0800	info	logger/default.go:28	2022/04/02 - 22:32:05 | 302 |             ::1 | POST    | /products
+
+2022-04-02T22:32:51.874+0800	error	logger/default.go:40	模型参数绑定错误： %vKey: 'Product.Code' Error:Field validation for 'Code' failed on the 'required' tag
+Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' tag
+2022-04-02T22:32:51.875+0800	info	logger/default.go:28	2022/04/02 - 22:32:51 | 302 |             ::1 | POST    | /products
+
