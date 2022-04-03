@@ -11,7 +11,7 @@ import (
 )
 
 func ProductList(c *gin.Context) {
-	products := service.SelectProduct
+	products := service.SelectProduct()
 	c.HTML(http.StatusOK, "products.html", products)
 }
 

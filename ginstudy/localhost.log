@@ -35,3 +35,34 @@ Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' t
 Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' tag
 2022-04-02T22:32:51.875+0800	info	logger/default.go:28	2022/04/02 - 22:32:51 | 302 |             ::1 | POST    | /products
 
+2022-04-03T10:38:25.836+0800	error	logger/default.go:44	connection database error, dial tcp 101.43.71.14:3306: connect: operation timed out
+2022-04-03T10:39:40.842+0800	error	logger/default.go:44	connection database error, dial tcp 101.43.71.14:3306: connect: operation timed out
+2022-04-03T10:44:26.764+0800	error	logger/default.go:44	connection database error, dial tcp 101.43.71.14:3306: connect: operation timed out
+2022-04-03T11:23:19.345+0800	error	logger/default.go:44	connection database error, dial tcp 101.43.71.14:3306: connect: operation timed out
+2022-04-03T11:29:33.417+0800	error	logger/default.go:44	connection database error, dial tcp 101.43.71.14:3306: connect: operation timed out
+2022-04-03T11:36:33.829+0800	error	logger/default.go:44	connection database error, sql: unknown driver "mysql" (forgotten import?)
+2022-04-03T11:40:15.666+0800	error	logger/default.go:44	connection database error, sql: unknown driver "mysql" (forgotten import?)
+2022-04-03T11:41:27.036+0800	debug	logger/default.go:16	connect success
+2022-04-03T11:41:50.987+0800	error	logger/default.go:40	模型参数绑定错误： %vKey: 'Product.Code' Error:Field validation for 'Code' failed on the 'required' tag
+Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' tag
+2022-04-03T11:41:50.987+0800	info	logger/default.go:28	2022/04/03 - 11:41:50 | 302 |             ::1 | POST    | /products
+
+2022-04-03T16:37:50.144+0800	debug	logger/default.go:16	connect success
+2022-04-03T16:42:21.682+0800	debug	logger/default.go:16	connect success
+2022-04-03T16:43:26.856+0800	error	logger/default.go:40	模型参数绑定错误： %vKey: 'Product.Code' Error:Field validation for 'Code' failed on the 'required' tag
+Key: 'Product.Name' Error:Field validation for 'Name' failed on the 'required' tag
+2022-04-03T16:43:26.856+0800	info	logger/default.go:28	2022/04/03 - 16:42:31 | 302 |             ::1 | POST    | /products
+
+2022-04-03T16:45:52.550+0800	info	logger/default.go:28	2022/04/03 - 16:45:36 | 302 |             ::1 | POST    | /products
+
+2022-04-03T16:49:10.770+0800	debug	logger/default.go:16	connect success
+2022-04-03T16:52:31.998+0800	debug	logger/default.go:16	connect success
+2022-04-03T16:52:41.794+0800	info	logger/default.go:28	2022/04/03 - 16:52:41 | 200 |             ::1 | GET     | /products
+
+2022-04-03T16:52:43.910+0800	error	logger/default.go:44	商品列表查询错误：record not found
+2022-04-03T16:52:43.911+0800	info	logger/default.go:28	2022/04/03 - 16:52:43 | 200 |             ::1 | GET     | /product
+
+2022-04-03T16:52:51.604+0800	info	logger/default.go:28	2022/04/03 - 16:52:51 | 302 |             ::1 | POST    | /products
+
+2022-04-03T16:52:51.648+0800	info	logger/default.go:28	2022/04/03 - 16:52:51 | 200 |             ::1 | GET     | /products
+
